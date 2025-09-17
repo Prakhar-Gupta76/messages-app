@@ -457,13 +457,6 @@ class MessageDetailScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 8),
-                        Text(
-                          '7:51 pm',
-                          style: TextStyle(
-                            color: Colors.grey[600],
-                            fontSize: 12,
-                          ),
-                        ),
                       ],
                     ),
                   ),
@@ -545,25 +538,6 @@ class MessageDetailScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 8),
-                        Row(
-                          children: [
-                            Text(
-                              '7:52 pm',
-                              style: TextStyle(
-                                color: Colors.grey[600],
-                                fontSize: 12,
-                              ),
-                            ),
-                            SizedBox(width: 8),
-                            Text(
-                              '• airtel1',
-                              style: TextStyle(
-                                color: Colors.teal,
-                                fontSize: 12,
-                              ),
-                            ),
-                          ],
-                        ),
                       ],
                     ),
                   ),
