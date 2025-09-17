@@ -34,6 +34,38 @@ class Message {
 class MessageListScreen extends StatelessWidget {
   final List<Message> messages = [
     Message(
+      sender: 'VK-PNBSMS',
+      preview: 'Dear Customer, The Balance for account N...',
+      time: '5 min',
+      avatarColor: Colors.cyan,
+      fullContent:
+          'Dear Customer, The Balance for account Number XXXXXXXXXXXXX672: INR 74825.25,. SMS PNB PROD to 5607040 for detailed product list. -PNB',
+    ),
+    Message(
+      sender: 'AD-AIRTEL-S',
+      preview: 'गृह मंत्रालय I4C के अनुसार: एयरटेल उपयोगकर्ताओं...',
+      time: '10:00 am',
+      avatarColor: Colors.red,
+      fullContent:
+          'गृह मंत्रालय I4C के अनुसार: एयरटेल उपयोगकर्ताओं के लिए साइबर फ्रॉड से पैसों का नुकसान 68.7% कम हो गया है। हम इस संख्या को और घटाने के लिए एयरटेल - द सेफ नेटवर्क पर लगातार काम कर रहे हैं, ताकि आप सुरक्षित रह सकें। अधिक जानने के लिए क्लिक करें: https://gh0hi-web.app.link/e/telecom_news',
+    ),
+    Message(
+      sender: 'AD-AIRTEL-S',
+      preview: 'गृह मंत्रालय I4C के अनुसार: एयरटेल उपयोगकर्ताओं...',
+      time: '11:25 am',
+      avatarColor: Colors.red,
+      fullContent:
+          'गृह मंत्रालय I4C के अनुसार: एयरटेल उपयोगकर्ताओं के लिए साइबर फ्रॉड से पैसों का नुकसान 68.7% कम हो गया है। हम इस संख्या को और घटाने के लिए एयरटेल - द सेफ नेटवर्क पर लगातार काम कर रहे हैं, ताकि आप सुरक्षित रह सकें। अधिक जानने के लिए क्लिक करें: https://gh0hi-web.app.link/e/telecom_news',
+    ),
+    Message(
+      sender: 'BG-PNBSMS-S',
+      preview: 'Your a/c no XX672 is credited by Rs 45000...',
+      time: '8:03 pm',
+      avatarColor: Colors.cyan,
+      fullContent:
+          'Your a/c no XX672 is credited by Rs 45000.00 on 16-09-25 20:03:25 by a/c linked to mobile 9XXXXXXXX385 (IMPS Ref no 521215353015)-PNB',
+    ),
+    Message(
       sender: 'AD-AIRTEL-S',
       preview: 'गृह मंत्रालय I4C के अनुसार: एयरटेल उपयोगकर्ताओं...',
       time: '7:52 pm',
@@ -63,7 +95,7 @@ class MessageListScreen extends StatelessWidget {
       time: '6:15 pm',
       avatarColor: Colors.cyan,
       fullContent:
-          'A/c XX2672 debited INR 200.00 Dt 16-09-2025 For UPI-PHONEPE Bal INR 8,450.23 Not you? Call 1800112211',
+          'A/c XX2672 debited INR 200.00 Dt 16-09-25 18:15:22 thru UPI:525912000075.Bal INR 29829.25 Not u?Fwd this SMS to 9264092640 to block UPI.Download PNB ONE-PNB',
     ),
     Message(
       sender: 'AD-ARWGOV-S',
@@ -108,7 +140,127 @@ class MessageListScreen extends StatelessWidget {
     Message(
       sender: 'AD-650025-P',
       preview: 'Your new playlist is waiting! Claim up to ...',
-      time: '2:45 pm',
+      time: '16 Feb',
+      avatarColor: Colors.pink,
+      fullContent:
+          'Your new playlist is waiting! Claim up to 3 months free Spotify Premium. Limited time offer, don\'t miss out!',
+    ),
+    Message(
+      sender: '59039465',
+      preview: 'Your Twilio verification code is: 147901',
+      time: '16 Feb',
+      avatarColor: Colors.orange,
+      fullContent:
+          'Your Twilio verification code is: 147901. This code will expire in 10 minutes.',
+    ),
+    Message(
+      sender: 'AX-ARTMOV-P',
+      preview: 'Never miss cricket moments! You have u...',
+      time: '16 Feb',
+      avatarColor: Colors.red,
+      fullContent:
+          'Never miss cricket moments! You have unread cricket updates. Check the latest scores and highlights now.',
+    ),
+    Message(
+      sender: 'AD-AIRTEL-P',
+      preview: 'Aapki pasandeeda Hellotune - Airtel Tha...',
+      time: '16 Feb',
+      avatarColor: Colors.green,
+      fullContent:
+          'Aapki pasandeeda Hellotune - Airtel Thanks jaldi khatam hone wala hai. Renew karne ke liye dial karein *444# ya Airtel Thanks app use karein.',
+    ),
+    Message(
+      sender: 'AD-650025-P',
+      preview: 'Your new playlist is waiting! Claim up to ...',
+      time: '16 Feb',
+      avatarColor: Colors.pink,
+      fullContent:
+          'Your new playlist is waiting! Claim up to 3 months free Spotify Premium. Limited time offer, don\'t miss out!',
+    ),
+    Message(
+      sender: '59039465',
+      preview: 'Your Twilio verification code is: 147901',
+      time: '16 Feb',
+      avatarColor: Colors.orange,
+      fullContent:
+          'Your Twilio verification code is: 147901. This code will expire in 10 minutes.',
+    ),
+    Message(
+      sender: 'AX-ARTMOV-P',
+      preview: 'Never miss cricket moments! You have u...',
+      time: '16 Feb',
+      avatarColor: Colors.red,
+      fullContent:
+          'Never miss cricket moments! You have unread cricket updates. Check the latest scores and highlights now.',
+    ),
+    Message(
+      sender: 'AD-AIRTEL-P',
+      preview: 'Aapki pasandeeda Hellotune - Airtel Tha...',
+      time: '16 Feb',
+      avatarColor: Colors.green,
+      fullContent:
+          'Aapki pasandeeda Hellotune - Airtel Thanks jaldi khatam hone wala hai. Renew karne ke liye dial karein *444# ya Airtel Thanks app use karein.',
+    ),
+    Message(
+      sender: 'AD-650025-P',
+      preview: 'Your new playlist is waiting! Claim up to ...',
+      time: '16 Feb',
+      avatarColor: Colors.pink,
+      fullContent:
+          'Your new playlist is waiting! Claim up to 3 months free Spotify Premium. Limited time offer, don\'t miss out!',
+    ),
+    Message(
+      sender: 'AX-ARTMOV-P',
+      preview: 'Never miss cricket moments! You have u...',
+      time: '15 Feb',
+      avatarColor: Colors.red,
+      fullContent:
+          'Never miss cricket moments! You have unread cricket updates. Check the latest scores and highlights now.',
+    ),
+    Message(
+      sender: 'AD-AIRTEL-P',
+      preview: 'Aapki pasandeeda Hellotune - Airtel Tha...',
+      time: '15 Feb',
+      avatarColor: Colors.green,
+      fullContent:
+          'Aapki pasandeeda Hellotune - Airtel Thanks jaldi khatam hone wala hai. Renew karne ke liye dial karein *444# ya Airtel Thanks app use karein.',
+    ),
+    Message(
+      sender: 'AD-650025-P',
+      preview: 'Your new playlist is waiting! Claim up to ...',
+      time: '15 Feb',
+      avatarColor: Colors.pink,
+      fullContent:
+          'Your new playlist is waiting! Claim up to 3 months free Spotify Premium. Limited time offer, don\'t miss out!',
+    ),
+    Message(
+      sender: '59039465',
+      preview: 'Your Twilio verification code is: 147901',
+      time: '15 Feb',
+      avatarColor: Colors.orange,
+      fullContent:
+          'Your Twilio verification code is: 147901. This code will expire in 10 minutes.',
+    ),
+    Message(
+      sender: 'AX-ARTMOV-P',
+      preview: 'Never miss cricket moments! You have u...',
+      time: '14 Feb',
+      avatarColor: Colors.red,
+      fullContent:
+          'Never miss cricket moments! You have unread cricket updates. Check the latest scores and highlights now.',
+    ),
+    Message(
+      sender: 'AD-AIRTEL-P',
+      preview: 'Aapki pasandeeda Hellotune - Airtel Tha...',
+      time: '14 Feb',
+      avatarColor: Colors.green,
+      fullContent:
+          'Aapki pasandeeda Hellotune - Airtel Thanks jaldi khatam hone wala hai. Renew karne ke liye dial karein *444# ya Airtel Thanks app use karein.',
+    ),
+    Message(
+      sender: 'AD-650025-P',
+      preview: 'Your new playlist is waiting! Claim up to ...',
+      time: '14 Feb',
       avatarColor: Colors.pink,
       fullContent:
           'Your new playlist is waiting! Claim up to 3 months free Spotify Premium. Limited time offer, don\'t miss out!',
